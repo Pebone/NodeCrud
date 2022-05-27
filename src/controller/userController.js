@@ -11,7 +11,7 @@ module.exports = {
             return res.status(201).send(user);
         }
         catch(err){
-            return res.status(400).send({err: 'caralho mah vacilou'})
+            return res.status(400).send({err: 'Ocorreu algo de errado!'})
         }
     }
 }
