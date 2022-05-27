@@ -15,7 +15,7 @@ app.all('*', require('./routes/index'));
 app.use(morgan('dev'))
 
 app.get('/', (req, res) => {
-    return res.send('to no a aporra')
+    return res.send('')
 })
 
 app.listen(3000)
